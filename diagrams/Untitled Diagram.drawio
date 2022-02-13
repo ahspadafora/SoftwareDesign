@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T06:18:35.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" version="16.5.6" etag="5uLTmTcT8l3sqQdUJQi1" type="github"><diagram id="xoF4SA3bq-2W3NgiWF14">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-13T06:35:02.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="zbhB6UKucVlE1pINAq5I" version="16.5.6" type="github" pages="2">
+  <diagram id="xoF4SA3bq-2W3NgiWF14" name="Page-1">
+    <mxGraphModel dx="1820" dy="1423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-1" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;Requirements Collection Phase&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="30" width="430" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-2" value="&lt;b&gt;Problem Statement&lt;/b&gt;: &lt;br&gt;Create an app that lets housemates keep track of shared chores, log when they have individually completed a chore, be notified when a chore should be done, be notified when a housemate has completed a chore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=25;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="29" y="110" width="770" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-3" value="Functional Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="27" y="348" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-5" value="As a housemate I would like to store all of the chores that need to get done in my house, so that I can share them with my other housemates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="29" y="714" width="752" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-6" value="As a housemate I would like to store all of the chores that need to get done in my house, so I can update the status of those chores as I complete them" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="29" y="550" width="752" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-7" value="As a housemate I would like to store all of the chores that need to get done in my house, so I can revisit the list of chores&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="29" y="418" width="752" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="mhvh6EzFntWVzuD46HSq-1" value="As a housemate I would like to be notified when my housemates have updated a chore, so that I can thank them" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="29" y="847" width="752" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="mhvh6EzFntWVzuD46HSq-2" value="As a housemate I would like to create a private house group, so I can add my other housemates and we can share status updates on our shared chores" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="27" y="974" width="752" height="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="TVUPMO2UOaPHikqkhb6W">
+    <mxGraphModel dx="1820" dy="1423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--0" />
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--1" parent="O_Y7P6sL5X9Xhwo6KuT--0" />
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--2" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;Requirements Collection Phase continued&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="30" width="758" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--3" value="&lt;b&gt;Problem Statement&lt;/b&gt;: &lt;br&gt;Create an app that lets housemates keep track of shared chores, log when they have individually completed a chore, be notified when a chore should be done, be notified when a housemate has completed a chore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=25;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="110" width="770" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--4" value="Non-Functional Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="27" y="348" width="715" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keMho97qh3kjK1bFUn_v-0" value="Build to support iOS 13&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="415" width="752" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="keMho97qh3kjK1bFUn_v-1" value="Create a dedicated support website and include the link in the app&#39;s description and its &quot;About&quot; page" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="510" width="752" height="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
