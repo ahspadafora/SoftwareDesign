@@ -1,16 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T06:35:02.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="zbhB6UKucVlE1pINAq5I" version="16.5.6" type="github" pages="2">
-  <diagram id="xoF4SA3bq-2W3NgiWF14" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-02-13T07:10:03.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="Wpbi8Yps--jQrRrDVr7e" version="16.5.6" type="github" pages="4">
+  <diagram name="functionalRequirements" id="vpM6RLaQrzor3z2fpcbA">
+    <mxGraphModel dx="2912" dy="2276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-0" />
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-1" parent="5CC_d9kwfUeM7C_-CvyL-0" />
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-2" value="&lt;b style=&quot;font-size: 25px&quot;&gt;Collect and Analyze Requirements:&lt;/b&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;&amp;nbsp;Functional requirements&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="30" width="758" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-3" value="&lt;b&gt;Problem Statement&lt;/b&gt;: &lt;br&gt;Create an app that lets housemates keep track of shared chores, log when they have individually completed a chore, be notified when a chore should be done, be notified when a housemate has completed a chore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=25;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="110" width="770" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-4" value="Functional Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="27" y="304" width="715" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-5" value="We need to build an app that allows users to write and save a list of chores. The list of chores can be shared with other users in a private group. The list can be updated by anyone with access to the private group." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="383" width="752" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-6" value="The groups can be password protected" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="584" width="752" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-7" value="The app should send notifications to users when someone in their group has updated the chores status" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="712" width="752" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-8" value="Users can update their settings to turn notifications on/off" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="870" width="752" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-9" value="The app should send notifications to remind users of chores that still need to be done" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="983" width="752" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-10" value="The app should have some graphical representation of the progress on all of the chores, to give a quick look at how much chores have been completed" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="1114" width="752" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="5CC_d9kwfUeM7C_-CvyL-11" value="Chores can be grouped into daily, weekly and monthly categories" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="5CC_d9kwfUeM7C_-CvyL-1">
+          <mxGeometry x="29" y="1272" width="752" height="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="non-functionalRequirements" id="TVUPMO2UOaPHikqkhb6W">
+    <mxGraphModel dx="1820" dy="1423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--0" />
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--1" parent="O_Y7P6sL5X9Xhwo6KuT--0" />
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--2" value="&lt;b style=&quot;font-size: 25px&quot;&gt;Collect and Analyze Requirements:&lt;/b&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;&amp;nbsp;Non-functional requirements&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="30" width="758" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--3" value="&lt;b&gt;Problem Statement&lt;/b&gt;: &lt;br&gt;Create an app that lets housemates keep track of shared chores, log when they have individually completed a chore, be notified when a chore should be done, be notified when a housemate has completed a chore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=25;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="110" width="770" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--4" value="Non-Functional Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="27" y="348" width="715" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="keMho97qh3kjK1bFUn_v-0" value="Build to support iOS 13&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="415" width="752" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="keMho97qh3kjK1bFUn_v-1" value="Create a dedicated support website and include the link in the app&#39;s description and its &quot;About&quot; page" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="27" y="476" width="752" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="-orFp8MOZCKpcie849-i-0" value="&lt;span class=&quot;ic he&quot; style=&quot;color: rgb(41 , 41 , 41) ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 20px ; letter-spacing: -0.003em ; box-sizing: inherit ; font-weight: 700&quot;&gt;&lt;u&gt;non-functional Requirement considerations&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;ul class=&quot;&quot; style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; box-sizing: inherit ; margin: 0px ; padding: 0px ; list-style: none none ; color: rgba(0 , 0 , 0 , 0.8)&quot;&gt;&lt;li id=&quot;a9dc&quot; class=&quot;iy iz hd ic b id ie ih ii il ja ip jb it jc ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 2.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Performance&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;c7b5&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Scalability&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;5387&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Responsiveness&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;3663&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Use-ability&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;6eec&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;reliability&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;d888&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Security&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;a4ab&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Documentation&lt;/strong&gt;&lt;/li&gt;&lt;li id=&quot;df69&quot; class=&quot;iy iz hd ic b id jh ih ji il jj ip jk it jl ix jd je jf jg ff&quot; style=&quot;box-sizing: inherit ; font-weight: 400 ; color: rgb(41 , 41 , 41) ; font-style: normal ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; margin-bottom: -0.46em ; line-height: 28px ; letter-spacing: -0.003em ; list-style-type: disc ; margin-left: 30px ; padding-left: 0px ; font-size: 20px ; margin-top: 1.14em&quot;&gt;&lt;strong class=&quot;ic he&quot; style=&quot;box-sizing: inherit ; font-weight: 700 ; font-family: &amp;#34;charter&amp;#34; , &amp;#34;georgia&amp;#34; , &amp;#34;cambria&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif&quot;&gt;Availability&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontSize=25;fontFamily=Helvetica;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="518" y="598" width="263" height="515" as="geometry" />
+        </mxCell>
+        <mxCell id="-orFp8MOZCKpcie849-i-1" value="Handle data calls and responses asynchronously&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="601" width="455" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="-orFp8MOZCKpcie849-i-2" value="Write unit test/ integration test to allow for scalability" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="27" y="719" width="455" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="-orFp8MOZCKpcie849-i-3" value="Use a password hash to encrypt the passwords" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="27" y="824" width="455" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="-orFp8MOZCKpcie849-i-4" value="Allow for accessibility" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
+          <mxGeometry x="29" y="919" width="455" height="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xoF4SA3bq-2W3NgiWF14" name="userStories">
     <mxGraphModel dx="1820" dy="1423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yzw-ag8VX63JOOADQfhv-1" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;Requirements Collection Phase&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="29" y="30" width="430" height="82" as="geometry" />
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-1" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;Collect and Analyze Requirements: User Stories&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="30" width="750" height="82" as="geometry" />
         </mxCell>
         <mxCell id="Yzw-ag8VX63JOOADQfhv-2" value="&lt;b&gt;Problem Statement&lt;/b&gt;: &lt;br&gt;Create an app that lets housemates keep track of shared chores, log when they have individually completed a chore, be notified when a chore should be done, be notified when a housemate has completed a chore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=25;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="29" y="110" width="770" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="Yzw-ag8VX63JOOADQfhv-3" value="Functional Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Yzw-ag8VX63JOOADQfhv-3" value="User Stories" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="27" y="348" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yzw-ag8VX63JOOADQfhv-5" value="As a housemate I would like to store all of the chores that need to get done in my house, so that I can share them with my other housemates" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="1">
@@ -31,25 +107,64 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Page-1" id="TVUPMO2UOaPHikqkhb6W">
+  <diagram id="zLMvpDgKs-KwoWUim4M8" name="usecaseDiagram">
     <mxGraphModel dx="1820" dy="1423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--0" />
-        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--1" parent="O_Y7P6sL5X9Xhwo6KuT--0" />
-        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--2" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 25px&quot;&gt;Requirements Collection Phase continued&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
-          <mxGeometry x="29" y="30" width="758" height="82" as="geometry" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-0" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-1" parent="MRZxDTnwtTZi-f5Fp0KE-0" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-5" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="286" y="39" width="290" height="1094" as="geometry" />
         </mxCell>
-        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--3" value="&lt;b&gt;Problem Statement&lt;/b&gt;: &lt;br&gt;Create an app that lets housemates keep track of shared chores, log when they have individually completed a chore, be notified when a chore should be done, be notified when a housemate has completed a chore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=25;labelPosition=center;verticalLabelPosition=middle;whiteSpace=wrap;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
-          <mxGeometry x="29" y="110" width="770" height="194" as="geometry" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O_Y7P6sL5X9Xhwo6KuT--4" value="Non-Functional Requirements" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;fontStyle=1" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
-          <mxGeometry x="27" y="348" width="715" height="60" as="geometry" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="keMho97qh3kjK1bFUn_v-0" value="Build to support iOS 13&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
-          <mxGeometry x="29" y="415" width="752" height="98" as="geometry" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="keMho97qh3kjK1bFUn_v-1" value="Create a dedicated support website and include the link in the app&#39;s description and its &quot;About&quot; page" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="O_Y7P6sL5X9Xhwo6KuT--1">
-          <mxGeometry x="29" y="510" width="752" height="98" as="geometry" />
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=25;" edge="1" parent="MRZxDTnwtTZi-f5Fp0KE-1" source="MRZxDTnwtTZi-f5Fp0KE-6" target="MRZxDTnwtTZi-f5Fp0KE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-6" value="Housemate" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="124" y="222" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-11" value="Create a private house group" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="331" y="68" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-12" value="Store a list of chores" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="331" y="196" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-13" value="Update a list of chores" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="331" y="330" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-14" value="Delete a list of chores" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="331" y="458" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-15" value="Get notified when a chore is updated" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="318" y="584" width="226" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-16" value="Get reminded when a chore should be done" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="327" y="716" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-17" value="Create a chore" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="325" y="848" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="MRZxDTnwtTZi-f5Fp0KE-26" value="Create a user account" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=25;" vertex="1" parent="MRZxDTnwtTZi-f5Fp0KE-1">
+          <mxGeometry x="325" y="971" width="200" height="118" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
